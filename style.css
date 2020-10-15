@@ -4,92 +4,52 @@
   box-sizing: border-box;
 }
 .rainbow {
-  height: 50vh;
+  height: 40vw;
   overflow: hidden;
 }
-@media (max-width: 500px) {
-  .rainbow {
-    height: 50vw;
-  }
-}
+
 .rainbow div {
   overflow: hidden;
   border-radius: 50%;
 }
 .rainbow > div {
-  height: 100vh;
-  width: 100vh;
+  height: 80vw;
+  width: 80vw;
+  margin: 20px auto;
   background-color: rgb(229, 29, 57);
 }
-@media (max-width: 500px) {
-  .rainbow > div {
-    height: 100vw;
-    width: 100vw;
-  }
-}
+
 .rainbow > div > div {
-  height: 98vh;
-  margin: 2vh;
+  height: 78vw;
+  margin: 2vw;
   background-color: rgb(245, 143, 35);
 }
-@media (max-width: 500px) {
-  .rainbow > div > div {
-    height: 98vw;
-    margin: 2vw;
-  }
-}
+
 .rainbow > div > div > div {
-  height: 96vh;
-  margin: 2vh;
+  height: 76vw;
+  margin: 2vw;
   background-color: rgb(244, 236, 37);
 }
-@media (max-width: 500px) {
-  .rainbow > div > div > div {
-    height: 96vw;
-    margin: 2vw;
-  }
-}
+
 .rainbow > div > div > div > div {
-  height: 94vh;
-  margin: 2vh;
+  height: 74vw;
+  margin: 2vw;
   background-color: rgb(87, 173, 72);
 }
-@media (max-width: 500px) {
-  .rainbow > div > div > div > div {
-    height: 94vw;
-    margin: 2vw;
-  }
-}
+
 .rainbow > div > div > div > div > div {
-  height: 92vh;
-  margin: 2vh;
+  height: 72vw;
+  margin: 2vw;
   background-color: rgb(28, 97, 174);
 }
-@media (max-width: 500px) {
-  .rainbow > div > div > div > div > div {
-    height: 92vw;
-    margin: 2vw;
-  }
-}
+
 .rainbow > div > div > div > div > div > div {
-  height: 90vh;
-  margin: 2vh;
+  height: 70vw;
+  margin: 2vw;
   background-color: rgb(91, 67, 155);
 }
-@media (max-width: 500px) {
-  .rainbow > div > div > div > div > div > div {
-    height: 90vw;
-    margin: 2vw;
-  }
-}
 .rainbow > div > div > div > div > div > div > div {
-  height: 88vh;
-  margin: 2vh;
+  height: 68vw;
+  margin: 2vw;
   background-color: rgb(255, 255, 255);
-}
-@media (max-width: 500px) {
-  .rainbow > div > div > div > div > div > div > div {
-    height: 88vw;
-    margin: 2vw;
-  }
 }
